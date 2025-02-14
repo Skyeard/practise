@@ -87,6 +87,17 @@ def validator(args):
     elif args.hosts and args.file:
         raise AttributeError(
             'These arguments cannot be used in pairs. Use "--help"')
+    if args.hosts:
+        for url in args.hosts.split(','):
+            if not url[:8] == 'https://':
+                raise SyntaxError(
+                    "Enter the address correctly, example: 'https://example.com'")
+    if args.file:
+        with open(args.file) as file:
+            for url in file.readlines():
+                if not url[:8] == 'https://':
+                    raise SyntaxError(
+                        "Enter the address correctly, example: 'https://example.com'")
 
 
 def get_parametrs():
