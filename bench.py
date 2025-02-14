@@ -71,7 +71,8 @@ def GUI():
     parser = argparse.ArgumentParser()
     parser.add_argument(
         '-H', '--hosts', help="Host addresses. Use '--hosts' or '--file'")
-    parser.add_argument('-C', '--count', help="Number of requests", type=int)
+    parser.add_argument(
+        '-C', '--count', help="Number of requests, default 1", type=int)
     parser.add_argument(
         '-F', '--file', help="Path to the file with the list of addresses divided into lines")
     parser.add_argument(
