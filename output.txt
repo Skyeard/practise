@@ -1,0 +1,40 @@
+Host = https://google.com
+Success = 0
+Failed = 5
+Errors = 0
+Min = 0.761921 seconds
+Max = 0.903663 seconds
+Avg = 0.867181 seconds
+
+Host = https://vk.com
+Success = 5
+Failed = 0
+Errors = 0
+Min = 0.541517 seconds
+Max = 0.549293 seconds
+Avg = 0.545138 seconds
+
+Host = https://ya.ru
+Success = 5
+Failed = 0
+Errors = 0
+Min = 0.261899 seconds
+Max = 0.361074 seconds
+Avg = 0.316620 seconds
+
+Host = https://example.com
+Success = 5
+Failed = 0
+Errors = 0
+Min = 0.563151 seconds
+Max = 1.013181 seconds
+Avg = 0.711061 seconds
+
+Host = https://habr.com
+Success = 5
+Failed = 0
+Errors = 0
+Min = 0.502063 seconds
+Max = 1.173950 seconds
+Avg = 0.676095 seconds
+

@@ -1,0 +1,5 @@
+https://google.com
+https://vk.com
+https://ya.ru
+https://example.com
+https://habr.com
